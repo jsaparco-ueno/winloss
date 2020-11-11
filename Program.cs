@@ -30,7 +30,7 @@ namespace winloss
             Console.WriteLine("w - Records a win");
             Console.WriteLine("l - Records a loss");
             Console.WriteLine("reset - Resets the tally to zero");
-            Console.WriteLine("quit - Terminates this console app")
+            Console.WriteLine("quit - Terminates this console app");
             
             // begin main execution loop
             while (keepLooping)
