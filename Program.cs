@@ -16,7 +16,7 @@ namespace winloss
             var historyText = System.IO.File.ReadAllText(historyPath);
             if (!(historyText.Contains(GetTimestamp())))
             {
-                System.IO.File.AppendAllText(historyPath, $"\n{GetTimestamp()}\n");                
+                System.IO.File.AppendAllText(historyPath, $"\n{GetTimestamp()}\n");
             }
 
             var wins = 0;
